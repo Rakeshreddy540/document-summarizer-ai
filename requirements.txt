@@ -1,0 +1,8 @@
+# Required packages for the Document Summarizer AI
+flask
+tensorflow
+transformers
+nltk
+scikit-learn
+numpy
+pandas
