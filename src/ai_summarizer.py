@@ -1,0 +1,1 @@
+from transformers import pipeline\n\n\ndef summarize_text(text):\n    # Initialize the summarization pipeline\n    summarizer = pipeline('summarization')\n    # Generate the summary\n    summary = summarizer(text, max_length=150, min_length=30, do_sample=False)\n    return summary[0]['summary_text']
